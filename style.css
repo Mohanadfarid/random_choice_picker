@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2b88f0;
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+#textarea {
+  width: 600px;
+  min-height: 100px;
+  padding: 20px 20px 30px;
+  margin: 0 0 20px;
+  font-size: 16px;
+}
+#tags_holder {
+  display: flex;
+  width: 600px;
+  height: auto;
+  flex-wrap: wrap;
+}
+.tag {
+  background-color: #f0932b;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  border-radius: 50px;
+}
+
+.tag.selected {
+  background-color: #273c75;
+}
